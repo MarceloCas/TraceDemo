@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option csharp_namespace = "TraceDemo.Microservices.Customers";
+
+package TraceDemo.Microservices.Customers;
+
+import "google/protobuf/timestamp.proto";
+
+service Customers {
+  rpc GetCustomersOperation (GetCustomersRequest) returns (GetCustomersReply);
+  rpc AddCustomerOperation (AddCustomerRequest) returns (AddCustomerReply);
+}
+
+message GetCustomersRequest {
+
+}
+message GetCustomersReply {
+	repeated CustomerDto customerCollection = 1;
+}
+
+message AddCustomerRequest {
+	CustomerDto customerDto = 1;
+}
+message AddCustomerReply {
+
+}
+
+message CustomerDto {
+	string id = 1;
+	string name = 2;
+	optional google.protobuf.Timestamp birthDate = 3;
+}

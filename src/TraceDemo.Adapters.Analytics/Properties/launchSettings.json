@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "TraceDemo.Adapters.Analytics": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

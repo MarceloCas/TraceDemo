@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Ports", "1 - Ports", "{08D9E268-4532-4617-A8A4-0FBA483CD9E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Orchestrators", "2 - Orchestrators", "{E06A89AA-AABC-4F72-847F-9C10F4EBEAEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Microservices", "3 - Microservices", "{8D0BA176-CEF6-47CF-9E49-0A9F541B1E23}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Adapters", "4 - Adapters", "{DC5221A0-C26D-4D19-B766-75D47780B6B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceDemo.Ports.OpenApi", "src\TraceDemo.Ports.OpenApi\TraceDemo.Ports.OpenApi.csproj", "{771A75F4-FAD2-46FA-AD8F-1CA1285F3413}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceDemo.Orchestrator", "src\TraceDemo.Orchestrator\TraceDemo.Orchestrator.csproj", "{59A50A43-98EE-4424-812F-10F713882B5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceDemo.Microservices.Customers", "src\TraceDemo.Microservices.Customers\TraceDemo.Microservices.Customers.csproj", "{4CAC03AB-6C4B-49C7-B511-12CCBBB314EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceDemo.Adapters.Analytics", "src\TraceDemo.Adapters.Analytics\TraceDemo.Adapters.Analytics.csproj", "{532D6132-C6C6-4E14-B870-E48E92776125}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{771A75F4-FAD2-46FA-AD8F-1CA1285F3413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{771A75F4-FAD2-46FA-AD8F-1CA1285F3413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{771A75F4-FAD2-46FA-AD8F-1CA1285F3413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{771A75F4-FAD2-46FA-AD8F-1CA1285F3413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A50A43-98EE-4424-812F-10F713882B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A50A43-98EE-4424-812F-10F713882B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A50A43-98EE-4424-812F-10F713882B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A50A43-98EE-4424-812F-10F713882B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CAC03AB-6C4B-49C7-B511-12CCBBB314EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CAC03AB-6C4B-49C7-B511-12CCBBB314EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CAC03AB-6C4B-49C7-B511-12CCBBB314EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CAC03AB-6C4B-49C7-B511-12CCBBB314EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{532D6132-C6C6-4E14-B870-E48E92776125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{532D6132-C6C6-4E14-B870-E48E92776125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{532D6132-C6C6-4E14-B870-E48E92776125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{532D6132-C6C6-4E14-B870-E48E92776125}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{771A75F4-FAD2-46FA-AD8F-1CA1285F3413} = {08D9E268-4532-4617-A8A4-0FBA483CD9E3}
+		{59A50A43-98EE-4424-812F-10F713882B5F} = {E06A89AA-AABC-4F72-847F-9C10F4EBEAEE}
+		{4CAC03AB-6C4B-49C7-B511-12CCBBB314EE} = {8D0BA176-CEF6-47CF-9E49-0A9F541B1E23}
+		{532D6132-C6C6-4E14-B870-E48E92776125} = {DC5221A0-C26D-4D19-B766-75D47780B6B8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {649A1FEC-E7E2-465D-B5F4-FDD318F4F0FF}
+	EndGlobalSection
+EndGlobal
